@@ -643,8 +643,12 @@ a.tab-label:hover, a.tab-label.active-btn {
 	min-height: 118px;
 	padding: 0.625em 0;
 	text-align: center;
-	width: 100%;
+    width: 100%;
+    border-bottom: 4px solid rgba(240, 245, 247, 0.53);
+    
 }
+
+
 .day {
 	font-size: 2.5em;
 	font-weight: 700;
@@ -812,15 +816,16 @@ margin:0.1%;
   filter: grayscale(100%);    
   filter: progid:DXImageTransform.Microsoft.BasicImage(grayScale=1);
 }
-footer
+
+.footer
 {
   padding-top: 5px;
-  font-weight:  600;
-  font-size:x-large;
-  text-align: left;
+  font-weight:  500;
+  font-size:large;
+  text-align: center;
   text-shadow: 1px 1px deeppink;
-  color: darkred;
-  background-color:inherit;
+  color: rgb(243, 237, 237);
+  background-color: green;
   position:sticky;
   bottom:0;
   -moz-box-shadow: rgba(239, 207, 173, 0.7) 0px 0px 5px;
@@ -880,6 +885,11 @@ footer a:hover
   .social.right {
   	float: none;
   }
+  .nav-text {
+      margin-top: -50px;
+    padding-top: 0px;
+    float: none;
+}
   p.logo, p.nav-text {
   	text-align: center;
   }
@@ -1232,7 +1242,16 @@ a.color-btn, form.customform button.color-btn {
 
 .logo{
    align-self:center;
-   padding-top: 0.4px ;
+   padding-top: 0.4px;
+   
+}
+.logo img{
+    border-radius: 50%; 
+    height: 130px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .future {
@@ -1395,10 +1414,12 @@ a.color-btn, form.customform button.color-btn {
         }
 
         .nav-text {
-            padding-top: 20px;
+            padding-top: 50px;
             float: none;
         }
-
+        .nav-text p{
+            text-align:center"
+        }
         .top-nav ul {
             padding: 0;
         }

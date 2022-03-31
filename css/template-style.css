@@ -62,7 +62,6 @@ header {
     width: 100%;
     z-index: 5;
     margin-top: -20px;
- 
 }
 
 
@@ -1440,7 +1439,7 @@ a.color-btn, form.customform button.color-btn {
             }
 
                 .top-nav > ul.show-menu::after(2) {
-                    height: 10px;
+                    height: 0;
                 }
 
         .top-nav ul ul {

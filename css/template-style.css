@@ -114,14 +114,18 @@ p.logo {
     -ms-transition: all 0.20s linear 0s;
     -moz-transition: all 0.20s linear 0s;
     -webkit-transition: all 0.20s linear 0s;
-    background: none repeat scroll 0 0 rgba(237, 22, 8, 0.17);
+    background: none repeat scroll 0 0 #00283a;
+    border-bottom: 1px solid #eef0ee;
 }
-    .top-nav li a:hover, .top-nav li ul li a:hover {
-        background: none;
-        color: #34fa0e;
-        /*background: none repeat scroll 0 0 green;*/
-        position: relative;
-    }
+.top-nav li a:hover, .top-nav li ul li a:hover {
+    background: none;
+    color: #34fa0e;
+    position: relative;
+}
+
+.top-nav li ul li a:hover {
+    background: none repeat scroll 0 0 rgb(19, 76, 95);
+}
 
 .top-nav li.active-item a {
     background: none;
